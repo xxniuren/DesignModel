@@ -1,0 +1,2 @@
+抽象工厂模式，一个工厂接口产生工人的功能接口，工人的功能是通过低了各个功能部分的耦合性。区别（abstract Facotry: provider,SendMailFactory,SendSmsFactory   ; Factory sendFactoryByMethod）实现该接口来获取，一个管理层接口，管理层接口有produce方法，需要哪个功能的工人，那么通过实现管理层接口来获取该工人的实例对象
+和工厂模式相比较而言，该抽象工厂模式多了一个管理层实现接口，这样就把工人和管理者分开了，降低了实现的耦合。
